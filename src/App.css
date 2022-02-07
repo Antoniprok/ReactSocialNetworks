@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+.App-wrapper {
+  display: grid;
+  grid-template-areas:
+    'head  head'
+    'nav cont';
+  grid-template-rows: 1fr 10fr;
+  grid-template-columns: 2fr 12fr;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header img {
+  max-width: 100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+  background-color: turquoise;
+  grid-area: head;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
+  background-color: violet;
+  grid-area: nav;
+  min-width: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.content {
+  background-color: yellowgreen;
+  grid-area: cont;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img-back {
+  height: 30vh;
+  width: 100%;
+  background: local;
+  background-image: url(https://www.lufthansa.com/content/dam/lh/images/pixels_variations/c-374116967-7787557.jpg.transform/lh-dcep-transform-width-1440/img.jpg);
 }
