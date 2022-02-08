@@ -1,22 +1,23 @@
 import react from 'react'
+import s from './Nav-bar.module.css'
 
 function Nav() {
   return (
-    <nav className="nav">
+    <nav className={s.nav}>
       <div>
-        <a>pofile</a>
+        <a className={`${s.item} ${s.active}`}>pofile</a>
       </div>
       <div>
-        <a>maseges</a>
+        <a className={s.item}>maseges</a>
       </div>
       <div>
-        <a>news</a>
+        <a className={s.item}>news</a>
       </div>
       <div>
-        <a>music</a>
+        <a className={s.item}>music</a>
       </div>
       <div>
-        <a>photo</a>
+        <a className={s.item}>photo</a>
       </div>
     </nav>
   )

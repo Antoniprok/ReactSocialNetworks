@@ -6,28 +6,3 @@
   grid-template-rows: 1fr 10fr;
   grid-template-columns: 2fr 12fr;
 }
-header img {
-  max-width: 100px;
-}
-.header {
-  background-color: turquoise;
-  grid-area: head;
-}
-.nav {
-  background-color: violet;
-  grid-area: nav;
-  min-width: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.content {
-  background-color: yellowgreen;
-  grid-area: cont;
-}
-.img-back {
-  height: 30vh;
-  width: 100%;
-  background: local;
-  background-image: url(https://www.lufthansa.com/content/dam/lh/images/pixels_variations/c-374116967-7787557.jpg.transform/lh-dcep-transform-width-1440/img.jpg);
-}
