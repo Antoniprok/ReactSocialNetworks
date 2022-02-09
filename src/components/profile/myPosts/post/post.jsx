@@ -15,7 +15,7 @@ function Post(props) {
           className={s.like_icon}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Bot%C3%B3n_Me_gusta.svg/langru-240px-Bot%C3%B3n_Me_gusta.svg.png"
         />
-        {props.like}
+        {props.likeCount}
       </div>
     </div>
   )

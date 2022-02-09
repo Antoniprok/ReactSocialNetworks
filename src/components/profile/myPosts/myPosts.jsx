@@ -10,8 +10,8 @@ function MyPosts() {
         <br />
         <button>Send</button>
       </div>
-      <Post masseg="привет мой свет" like="15" />
-      <Post masseg="проверка на работоспособность" like="20" />
+      <Post masseg="привет мой свет" likeCount="15" />
+      <Post masseg="проверка на работоспособность" likeCount="20" />
     </div>
   )
 }

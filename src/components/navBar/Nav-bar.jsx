@@ -5,10 +5,14 @@ function Nav() {
   return (
     <nav className={s.nav}>
       <div>
-        <a className={`${s.item} ${s.active}`}>pofile</a>
+        <a href="/profile" className={`${s.item} ${s.active}`}>
+          profile
+        </a>
       </div>
       <div>
-        <a className={s.item}>maseges</a>
+        <a href="massege" className={s.item}>
+          maseges
+        </a>
       </div>
       <div>
         <a className={s.item}>news</a>
