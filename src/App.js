@@ -1,8 +1,8 @@
 import react from 'react'
 import './App.css'
-import Header from './components/Hedear'
-import Nav from './components/Nav-bar'
-import ProfiyleContent from './components/ProfiyleContent'
+import Header from './components/Hedear/Hedear'
+import Nav from './components/navBar/Nav-bar'
+import ProfiyleContent from './components/profile/ProfiyleContent'
 
 function App() {
   return (

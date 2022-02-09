@@ -1,4 +1,5 @@
 import react from 'react'
+import MyPosts from './myPosts/myPosts'
 import s from './ProfiyleContent.module.css'
 
 function ProfiyleContent() {
@@ -9,6 +10,7 @@ function ProfiyleContent() {
         <img src="https://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg" />
         <div> user comtent</div>
       </div>
+      <MyPosts />
     </div>
   )
 }
