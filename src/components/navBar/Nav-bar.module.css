@@ -5,14 +5,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.item {
-  color: blue;
   font-size: x-large;
   font-style: italic;
 }
-.item.active {
+.item a {
+  color: blue;
+  font-size: x-large;
+  font-style: italic;
+  text-decoration: none;
+}
+.item .active {
   border-radius: 7px;
-  background-color: rgba(112, 111, 110, 0.315);
+  background-color: rgba(236, 123, 9, 0.932);
   color: black;
 }
