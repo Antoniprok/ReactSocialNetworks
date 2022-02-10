@@ -10,18 +10,24 @@ function Nav() {
         </a>
       </div>
       <div>
-        <a href="massege" className={s.item}>
+        <a href="/massege" className={s.item}>
           maseges
         </a>
       </div>
       <div>
-        <a className={s.item}>news</a>
+        <a href="/News" className={s.item}>
+          news
+        </a>
       </div>
       <div>
-        <a className={s.item}>music</a>
+        <a href="/Music" className={s.item}>
+          music
+        </a>
       </div>
       <div>
-        <a className={s.item}>photo</a>
+        <a href="Photo" className={s.item}>
+          photo
+        </a>
       </div>
     </nav>
   )

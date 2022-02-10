@@ -1,4 +1,4 @@
-.App-wrapper {
+.wrapper {
   display: grid;
   grid-template-areas:
     'head  head'
