@@ -11,21 +11,19 @@ import ProfiyleContent from './components/profile/ProfiyleContent'
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="wrapper">
-        <Header />
-        <Nav />
-        <div class="content">
-          <Routes>
-            <Route path="massege" element={<Dialogs />} />
-            <Route path="profile" element={<ProfiyleContent />} />
-            <Route path="Music" element={<Music />} />
-            <Route path="News" element={<News />} />
-            <Route path="Photo" element={<Photo />} />
-          </Routes>
-        </div>
+    <div className="wrapper">
+      <Header />
+      <Nav />
+      <div class="content">
+        <Routes>
+          <Route path="massege" element={<Dialogs />} />
+          <Route path="profile" element={<ProfiyleContent />} />
+          <Route path="Music" element={<Music />} />
+          <Route path="News" element={<News />} />
+          <Route path="Photo" element={<Photo />} />
+        </Routes>
       </div>
-    </BrowserRouter>
+    </div>
   )
 }
 

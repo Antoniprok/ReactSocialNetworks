@@ -5,44 +5,44 @@ import s from './Nav-bar.module.css'
 function Nav() {
   return (
     <nav className={s.nav}>
-      <div className={s.item}>
+      <div>
         <NavLink
           to="/profile"
-          className={({ isActive }) => (isActive ? s.active : undefined)}
+          className={({ isActive }) => (isActive ? s.active : s.item)}
         >
-          profile
+          Profile
         </NavLink>
       </div>
-      <div className={s.item}>
+      <div>
         <NavLink
           to="/massege"
-          className={({ isActive }) => (isActive ? s.active : undefined)}
+          className={({ isActive }) => (isActive ? s.active : s.item)}
         >
-          maseges
+          Masseges
         </NavLink>
       </div>
-      <div className={s.item}>
+      <div>
         <NavLink
           to="/News"
-          className={({ isActive }) => (isActive ? s.active : undefined)}
+          className={({ isActive }) => (isActive ? s.active : s.item)}
         >
-          news
+          News
         </NavLink>
       </div>
-      <div className={s.item}>
+      <div>
         <NavLink
           to="/Music"
-          className={({ isActive }) => (isActive ? s.active : undefined)}
+          className={({ isActive }) => (isActive ? s.active : s.item)}
         >
-          music
+          Music
         </NavLink>
       </div>
-      <div className={s.item}>
+      <div>
         <NavLink
           to="Photo"
-          className={({ isActive }) => (isActive ? s.active : undefined)}
+          className={({ isActive }) => (isActive ? s.active : s.item)}
         >
-          photo
+          Photo
         </NavLink>
       </div>
     </nav>
