@@ -7,7 +7,7 @@ function ProfiyleContent() {
     <div className={s.content}>
       <div className={s.imgBack}></div>
       <div>
-        <img src="https://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg" />
+        <img src="https://cdn.novyny.live/images/thumbnail/original/crazy-frog.webp" />
         <div> user comtent</div>
       </div>
       <MyPosts />

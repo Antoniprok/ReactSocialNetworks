@@ -1,7 +1,11 @@
-
 .imgBack {
   height: 30vh;
   width: 100%;
   background: local;
   background-image: url(https://www.lufthansa.com/content/dam/lh/images/pixels_variations/c-374116967-7787557.jpg.transform/lh-dcep-transform-width-1440/img.jpg);
+}
+img {
+  height: 150px;
+  width: auto;
+  border-radius: 50%;
 }
